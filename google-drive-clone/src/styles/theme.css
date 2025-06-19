@@ -1,0 +1,8 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+@tailwind utilities;
+
+.file-btn{
+    @apply flex items-center gap-2 rounded px-3 py-1.5 text-sm text-white transition;
+}
+.file-btn:hover{ @apply brightness-110; }
